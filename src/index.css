@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.formulario {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contenedor{
+    margin-top: 10px;
+    display: flex;
+}
+
+.agregarDatos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    background-color: black;
+}
+
+.busqueda{
+    display: flex;
+}
+
+.buscador h1 {
+    color: white;
+}
+
+.buscador Button {
+    margin: 10px;
+    height: 40px;
+}
+
+.buscador input {
+    margin: 10px;
+    width: 300px;
+}
+
+.lista {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: beige;
+}
+
+.agregar button {
+    margin-top: 10px;
 }
